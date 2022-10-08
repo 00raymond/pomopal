@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "PomoPal",
+    "description": "The ULTIMATE study timer for all your pomodoro needs!!",
+    "version": "0.9",
+    "icons": {
+        "16": "/images/16.png",
+        "48": "/images/48.png",
+        "128": "/images/128.png"
+    },
+    "action": {
+        "default_popup": "main.html"
+    }
+}
