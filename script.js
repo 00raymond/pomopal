@@ -33,10 +33,10 @@ let reset = document.querySelector('#reset');
 
 reset.style.display = 'none';
 
-var minutesSt = 0;
-var secondsSt = 3;
-var minutesBr = 0;
-var secondsBr = 3;
+var minutesSt = 25;
+var secondsSt = 0;
+var minutesBr = 5;
+var secondsBr = 0;
 let TimerStudy = null;
 
 reset.addEventListener('click', () => {
@@ -88,10 +88,10 @@ start.addEventListener('click', function() {
           msgBreak.style.display='block';
             if (minutesBr == 0 && secondsBr == 0) {
               if (numPom >= 2) {
-              minutesBr = 0;
-              secondsBr = 3;
-              minutesSt = 0;
-              secondsSt = 3;
+              minutesBr = 5;
+              secondsBr = 0;
+              minutesSt = 25;
+              secondsSt = 0;
               numPom--;
               document.getElementById("numCycle").innerHTML = numPom;
               }
